@@ -9,6 +9,12 @@ Sources:
 * VTE tester - https://www.invisible-island.net/vttest/
 * Top Vim/NeoVim color scheme - https://vimcolorschemes.com/i/top
 
+# $COLORTERM environment variable
+
+This is a temporary environment variable name used by some certain terminal emulators (iTerm2, KiTTY)
+used as a transitory path toward full true color.  Valid value of `$COLORTERM` is only `color`, `truecolor`, 
+or blank.  `$COLORTERM` environment variable may even be undefined.
+
 # $TERM environment variable
 
 It is no longer a good practice to set the `$TERM` environment variable.  `$TERM` get sets by the
