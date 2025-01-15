@@ -6,3 +6,4 @@ Sources:
 
 * A list of terminals, terminal emulators & console apps - https://github.com/cdleon/awesome-terminals
 * VTE tester - https://www.invisible-island.net/vttest/
+* Top Vim/NeoVim color scheme - https://vimcolorschemes.com/i/top
