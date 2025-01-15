@@ -8,3 +8,11 @@ Sources:
 * A list of terminals, terminal emulators & console apps - https://github.com/cdleon/awesome-terminals
 * VTE tester - https://www.invisible-island.net/vttest/
 * Top Vim/NeoVim color scheme - https://vimcolorschemes.com/i/top
+
+# $TERM environment variable
+
+It is no longer a good practice to set the `$TERM` environment variable.  `$TERM` get sets by the
+terminal emulator, console, framebuffer driver, virtual pseudo-tty, SSH clients and certain apps (like email client,
+chat, or network utilities).
+
+The valid value for `$TERM` is given in the `/usr/share/terminfo/x` directory.
