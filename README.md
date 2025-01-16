@@ -14,6 +14,8 @@ Sources:
 used as a transitory path toward full true color.  Valid value of `$COLORTERM` is only `color`, `truecolor`, 
 or blank.  `$COLORTERM` environment variable may even be undefined.
 
+`$COLORTERM=truecolor` is the only way to expand from 256-color to 16M-color.
+
 # `$TERM` environment variable
 
 It is no longer a good practice to set the `$TERM` environment variable.  `$TERM` get sets by the
@@ -22,4 +24,4 @@ chat, or network utilities).
 
 The valid value for `$TERM` is given ONLY in the `/usr/share/terminfo/x` directory.
 
-There is no `truecolor`-variant for `$TERM`.  Maxed out at `TERM=xterm-256`.
+There is no `truecolor`-variant for `$TERM`.  Maxed out at `TERM=xterm-256color`.
