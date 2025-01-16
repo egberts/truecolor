@@ -22,6 +22,6 @@ It is no longer a good practice to set the `$TERM` environment variable.  `$TERM
 terminal emulator, console, framebuffer driver, virtual pseudo-tty, SSH clients and certain apps (like email client,
 chat, or network utilities).
 
-The valid value for `$TERM` is given ONLY in the `/usr/share/terminfo/x` directory.
+The valid value for `$TERM` is entirely defined ONLY in the `/usr/share/terminfo/x` directory.
 
 There is no `truecolor`-variant for `$TERM`.  Maxed out at `TERM=xterm-256color`.
