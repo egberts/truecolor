@@ -8,13 +8,14 @@ Sources:
 * A list of terminals, terminal emulators & console apps - https://github.com/cdleon/awesome-terminals
 * VTE tester - https://www.invisible-island.net/vttest/
 * Top Vim/NeoVim color scheme - https://vimcolorschemes.com/i/top
+* `vim` command `:h xterm-true-color`
 
 # `$COLORTERM` environment variable
 `$COLORTERM` is a temporary environment variable name used by some certain terminal emulators (iTerm2, KiTTY)
 used as a transitory path toward full true color.  Valid value of `$COLORTERM` is only `color`, `truecolor`, 
 or blank.  `$COLORTERM` environment variable may even be undefined.
 
-`$COLORTERM=truecolor` is the only way to expand from 256-color to 16M-color.
+`$COLORTERM=truecolor` is the only way to expand from 256-color to 16M-color (but some will put `$COLORTERM=24bit` and this is not the norm, and should fell out of disuse).
 
 # `$TERM` environment variable
 
