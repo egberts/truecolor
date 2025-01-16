@@ -24,4 +24,4 @@ chat, or network utilities).
 
 The valid value for `$TERM` is entirely defined ONLY in the `/usr/share/terminfo/x` directory.
 
-There is no `truecolor`-variant for `$TERM`.  Maxed out at `TERM=xterm-256color`.
+There is no `truecolor`-variant value for `$TERM`.  Maxes out at `TERM=xterm+256color`.
