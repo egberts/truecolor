@@ -29,4 +29,4 @@ There is no `truecolor`-variant value for `$TERM`.  Maxes out at `TERM=xterm+256
 
 # Application-Specific TrueColor
 
-For setup of application-specific TrueColor, see this repository's [egberts/truecolor/Wiki](../../Wiki)
+For setup of application-specific TrueColor, see this repository's [egberts/truecolor/wiki](../../wiki)
